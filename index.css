@@ -1,7 +1,10 @@
 *{
     margin:auto;
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
 }
-body{
+.container{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +12,27 @@ body{
     border: 1px solid black;
     width: 500px;
     height: 700px;
+    background-color: beige;
 }
+
+h1{
+    background-color: rgb(126, 122, 122);
+    width: 85%;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(228, 111, 111);
+}
+
+.clear-btn{
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.clear{
+    background-color: burlywood;
+}
+
 .numbers-only{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -28,4 +51,9 @@ button:active{
 
 button{
     padding: 10px 40px;
+    background-color: thistle;
+    border-radius: 10px;
+}
+.result{
+    background-color: aquamarine;
 }
